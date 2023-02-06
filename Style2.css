@@ -1,0 +1,92 @@
+body {
+	background: url(backnew.jpg);
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+
+#container {
+	width: 200px;
+	padding: 10px 10px 30px 10px;
+	margin: 30px;
+	background-image: url(new.jpg);
+	border-radius: 8px;
+	border-top: 5px solid #FFF;
+	border-right: 5px solid #1310c4;
+	border-bottom: 5px solid #5f17d3;
+	border-left: 5px solid #1593b9;
+	
+}
+
+#display {
+	display: block;
+	margin: 25px;
+	height: 50px;
+	width: 180px;
+	padding: 0 10px;
+	border-radius: 4px;
+	border-top: 2px solid #C1C1C1;
+	border-right: 2px solid #C1C1C1;
+	border-bottom: 2px solid #FFF;
+	border-left: 2px solid #FFF;
+	background-color: #FFF;
+	box-shadow: inset 0px 0px 10px #030303, inset 0px -20px 1px rgba(90, 87, 87, 0.2);
+	font-size: 28px;
+	color: #666;
+	text-align: right;
+	font-weight: 400;
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 50px;
+	height: 42px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+.mathButtons {
+	margin: 2px 2px 6px 2px;
+	color: #fcfbfb;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #837575;
+	border-top: 4px solid #C1C1C1;
+	border-right: 4px solid #C1C1C1;
+	border-bottom: 4px solid #181818;
+	border-left: 4px solid #181818;
+	box-shadow: 0px 0px 2px #048d97, inset 0px -20px 1px #0a7fc2;
+}
+
+.digits {
+	color: #0d34a1;
+	text-shadow: 1px 1px 0px #FFF;
+	background-color: #EBEBEB;
+	border-top: 2px solid #FFF;
+	border-right: 2px solid #FFF;
+	border-bottom: 2px solid #C1C1C1;
+	border-left: 2px solid #C1C1C1;
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px #1dcaad, inset 0px -20px 1px #02d7f3;
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+	background-color: #FFBA75;
+	box-shadow: 0px 0px 2px #FFBA75, inset 0px -20px 1px #7ef7f1;
+}
+
+#clearButton {
+	color: #FFF;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #05373d;
+	box-shadow: 0px 0px 2px #08a188, inset 0px -20px 1px #023a83;
+}
